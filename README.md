@@ -18,7 +18,9 @@ pyscal_rdf is developed in the pyscal GitHub organization. [Pyscal_rdf on GitHub
 ***
 #### Support and contributing
 For any questions or feedback, don't hesitate to contact us:
+
 a.azocar.guzman@fz-juelich.de
+
 matwerkoms@fz-juelich.de
 
 #### Authors and acknowledgments

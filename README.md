@@ -1,6 +1,12 @@
 # IUC17_demonstrator
 
+## GUI
 
+[![Binder](https://notebooks.mpcdf.mpg.de/binder/badge_logo.svg)](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fpyiron%2FIUC17_demonstrator.git/HEAD?urlpath=voila%2Frender%2Fiuc17_demonstrator%2Fexample_gui.ipynb)
+
+## Notebook
+
+[![Binder](https://notebooks.mpcdf.mpg.de/binder/badge_logo.svg)](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fpyiron%2FIUC17_demonstrator.git/HEAD?labpath=iuc17_demonstrator%2Fexample.ipynb)
 
 ## Getting started
 

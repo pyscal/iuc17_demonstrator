@@ -13,7 +13,7 @@ The demonstrator can be used either through a graphical user interface or a jupy
 
 | Jupyter notebook  | GUI |
 |-------------------|-----|
-| [[![Binder](https://notebooks.mpcdf.mpg.de/binder/badge_logo.svg)](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fpyiron%2FIUC17_demonstrator.git/HEAD?labpath=iuc17_demonstrator%2Fexample.ipynb)  | [![Binder](https://notebooks.mpcdf.mpg.de/binder/badge_logo.svg)](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fpyiron%2FIUC17_demonstrator.git/HEAD?urlpath=voila%2Frender%2Fiuc17_demonstrator%2Fexample_gui.ipynb)  |
+| [![Binder](https://notebooks.mpcdf.mpg.de/binder/badge_logo.svg)](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fpyiron%2FIUC17_demonstrator.git/HEAD?labpath=iuc17_demonstrator%2Fexample.ipynb)  | [![Binder](https://notebooks.mpcdf.mpg.de/binder/badge_logo.svg)](https://notebooks.mpcdf.mpg.de/binder/v2/git/https%3A%2F%2Fgitlab.mpcdf.mpg.de%2Fpyiron%2FIUC17_demonstrator.git/HEAD?urlpath=voila%2Frender%2Fiuc17_demonstrator%2Fexample_gui.ipynb)  |
 
 ## Computational Material Sample Ontology (CMSO)
 Semantic description of computational materials science samples (or structures). Initially focusing on the description at the atomic scale. Crystallographic defects are described in the POint Defect Ontology (PODO) and the PLane Defect Ontology (PLDO). 

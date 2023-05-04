@@ -1,6 +1,8 @@
 # IUC17_demonstrator
 
-- Development of an application-level ontology for material science computational samples, CMSO, which initially describes samples on the atomistic level. _(TA-OMS)_
+The [IUC17](https://nfdi-matwerk.de/infrastructure-use-cases/iuc17-ontologies-for-defects-in-crystals) demostrator is developed in the context of the NFDI-MatWerk conference. The specific user journey is the calculation of formation energies of vacancies.
+
+- Application-level ontology for material science computational samples, CMSO, which initially describes samples on the atomistic level. _(TA-OMS)_
 - The use of this ontology is aided by a software tool for automated annotation of structures using available atomic structural codes, pyscal_rdf. _(TA-WSD)_
 - Pyscal-rdf provides a way for users of common atomistic structure codes to implement RDF store and SPARQL querying. 
 - The use of this controlled vocabulary in a linked open data form ensures interoperability between different structural file formats and software, while also offering the possibility of making data findable and reusable.

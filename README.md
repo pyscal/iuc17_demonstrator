@@ -40,10 +40,10 @@ matwerkoms@fz-juelich.de
 #### Authors and acknowledgments
 **TA-OMS:** Abril Guzman, Volker Hofmann, Stefan Sandfeld.
 
-**TA-WSD:** Sarath Menon, Tilmann Hickel
+**TA-WSD:** Sarath Menon, Tilmann Hickel.
 
 **Participant Projects:**
-PP02: Mariano Forti, Thomas Hammerschmidt;
+PP01: Mariano Forti, Thomas Hammerschmidt;
 PP18: Birgit Skrotzki, Jürgen Olbricht, Luis Avila;
 new PP: Rebecca Janisch, Markus Stricker.
 

@@ -18,10 +18,14 @@ The demonstrator can be used either through a graphical user interface or a jupy
 ## Computational Material Sample Ontology (CMSO)
 Semantic description of computational materials science samples (or structures). Initially focusing on the description at the atomic scale. Crystallographic defects are described in the POint Defect Ontology (PODO) and the PLane Defect Ontology (PLDO). 
 
+![](images/pic_cmso.png)
+
 CMSO can be found in the GitHub of the Institute for Materials Data Science and Informatics (IAS-9) of Forschungszentrum Jülich. [CMSO on GitHub](https://github.com/Materials-Data-Science-and-Informatics/cmso-ontology)
 
 ## pyscal_rdf
 Python tool for ontology-based creation, manipulation, and quering of atomic structures. It is based on pyscal, a python library written in C++ for calculation of local atomic structural environment.
+
+![](images/pic_pyscalrdf.png)
 
 pyscal_rdf is developed in the pyscal GitHub organization. [Pyscal_rdf on GitHub](https://github.com/pyscal/pyscal_rdf) 
 

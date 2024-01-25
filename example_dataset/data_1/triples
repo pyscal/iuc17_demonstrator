@@ -1,0 +1,199 @@
+@prefix cmso: <http://purls.helmholtz-metadaten.de/cmso/> .
+@prefix pldo: <http://purls.helmholtz-metadaten.de/pldo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cmso:LatticeVector rdfs:subClassOf cmso:Vector .
+
+cmso:PositionVector rdfs:subClassOf cmso:Vector .
+
+<sample:1> a cmso:AtomicScaleSample ;
+    cmso:hasAttribute <sample:1_Position>,
+        <sample:1_Species> ;
+    cmso:hasMaterial <sample:1_Material> ;
+    cmso:hasNumberOfAtoms 32 ;
+    cmso:hasSimulationCell <sample:1_SimulationCell> ;
+    cmso:hasSpecies <sample:1_ChemicalSpecies> .
+
+<sample:2> a cmso:AtomicScaleSample ;
+    cmso:hasAttribute <sample:2_Position>,
+        <sample:2_Species> ;
+    cmso:hasMaterial <sample:2_Material> ;
+    cmso:hasNumberOfAtoms 40 ;
+    cmso:hasSimulationCell <sample:2_SimulationCell> ;
+    cmso:hasSpecies <sample:2_ChemicalSpecies> .
+
+<https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:18248> a cmso:Element ;
+    cmso:hasElementRatio "1.0"^^xsd:float ;
+    cmso:hasSymbol "Fe"^^xsd:string .
+
+<https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28112> a cmso:Element ;
+    cmso:hasElementRatio "0.25"^^xsd:float ;
+    cmso:hasSymbol "Ni"^^xsd:string .
+
+<https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28984> a cmso:Element ;
+    cmso:hasElementRatio "0.75"^^xsd:float ;
+    cmso:hasSymbol "Al"^^xsd:string .
+
+<sample:1_ChemicalSpecies> a cmso:ChemicalSpecies ;
+    cmso:hasElement <https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28112>,
+        <https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:28984> .
+
+<sample:1_CrystalStructure> a cmso:CrystalStructure ;
+    cmso:hasAltName "l12"^^xsd:string ;
+    cmso:hasSpaceGroupNumber 221 ;
+    cmso:hasSpaceGroupSymbol "Pm-3m"^^xsd:string ;
+    cmso:hasUnitCell <sample:1_UnitCell> .
+
+<sample:1_LatticeAngle> a cmso:LatticeAngle ;
+    cmso:hasAngle_alpha "90.0"^^xsd:float ;
+    cmso:hasAngle_beta "90.0"^^xsd:float ;
+    cmso:hasAngle_gamma "90.0"^^xsd:float .
+
+<sample:1_LatticeParameter> a cmso:LatticeParameter ;
+    cmso:hasLength_x "3.47"^^xsd:float ;
+    cmso:hasLength_y "3.47"^^xsd:float ;
+    cmso:hasLength_z "3.47"^^xsd:float .
+
+<sample:1_Material> a cmso:CrystallineMaterial ;
+    cmso:hasStructure <sample:1_CrystalStructure> .
+
+<sample:1_Position> a cmso:AtomAttribute ;
+    cmso:hasIdentifier "eeaacddf-544b-47c5-840e-0bfadc6ee3a6"^^xsd:string ;
+    cmso:hasName "Position"^^xsd:string ;
+    cmso:hasPath "rdf_structure_store/1.json"^^xsd:string .
+
+<sample:1_SimulationCell> a cmso:SimulationCell ;
+    cmso:hasAngle <sample:1_SimulationCellAngle> ;
+    cmso:hasLength <sample:1_SimulationCellLength> ;
+    cmso:hasVector <sample:1_SimulationCellVector_1>,
+        <sample:1_SimulationCellVector_2>,
+        <sample:1_SimulationCellVector_3> ;
+    cmso:hasVolume "2674.04"^^xsd:float .
+
+<sample:1_SimulationCellAngle> a cmso:SimulationCellAngle ;
+    cmso:hasAngle_alpha "90.0"^^xsd:float ;
+    cmso:hasAngle_beta "90.0"^^xsd:float ;
+    cmso:hasAngle_gamma "90.0"^^xsd:float .
+
+<sample:1_SimulationCellLength> a cmso:SimulationCellLength ;
+    cmso:hasLength_x "6.94"^^xsd:float ;
+    cmso:hasLength_y "6.94"^^xsd:float ;
+    cmso:hasLength_z "6.94"^^xsd:float .
+
+<sample:1_SimulationCellVector_1> a cmso:SimulationCellVector ;
+    cmso:hasComponent_x "6.94"^^xsd:float ;
+    cmso:hasComponent_y "0.0"^^xsd:float ;
+    cmso:hasComponent_z "0.0"^^xsd:float .
+
+<sample:1_SimulationCellVector_2> a cmso:SimulationCellVector ;
+    cmso:hasComponent_x "0.0"^^xsd:float ;
+    cmso:hasComponent_y "6.94"^^xsd:float ;
+    cmso:hasComponent_z "0.0"^^xsd:float .
+
+<sample:1_SimulationCellVector_3> a cmso:SimulationCellVector ;
+    cmso:hasComponent_x "0.0"^^xsd:float ;
+    cmso:hasComponent_y "0.0"^^xsd:float ;
+    cmso:hasComponent_z "6.94"^^xsd:float .
+
+<sample:1_Species> a cmso:AtomAttribute ;
+    cmso:hasIdentifier "b787ff0c-7a58-4063-8cde-a74f3c58046b"^^xsd:string ;
+    cmso:hasName "Species"^^xsd:string ;
+    cmso:hasPath "rdf_structure_store/1.json"^^xsd:string .
+
+<sample:1_UnitCell> a cmso:UnitCell ;
+    cmso:hasAngle <sample:1_LatticeAngle> ;
+    cmso:hasBravaisLattice <https://www.wikidata.org/wiki/Q3006714> ;
+    cmso:hasLatticeParamter <sample:1_LatticeParameter> .
+
+<sample:2_ChemicalSpecies> a cmso:ChemicalSpecies ;
+    cmso:hasElement <https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:18248> .
+
+<sample:2_CrystalStructure> a cmso:CrystalStructure ;
+    cmso:hasSpaceGroupNumber 229 ;
+    cmso:hasSpaceGroupSymbol "Im-3m"^^xsd:string ;
+    cmso:hasUnitCell <sample:2_UnitCell> .
+
+<sample:2_LatticeAngle> a cmso:LatticeAngle ;
+    cmso:hasAngle_alpha "90.0"^^xsd:float ;
+    cmso:hasAngle_beta "90.0"^^xsd:float ;
+    cmso:hasAngle_gamma "90.0"^^xsd:float .
+
+<sample:2_LatticeParameter> a cmso:LatticeParameter ;
+    cmso:hasLength_x "1.0"^^xsd:float ;
+    cmso:hasLength_y "1.0"^^xsd:float ;
+    cmso:hasLength_z "1.0"^^xsd:float .
+
+<sample:2_Material> a cmso:CrystallineMaterial ;
+    cmso:hasDefect <sample:2_SymmetricalTiltGrainBoundary> ;
+    cmso:hasStructure <sample:2_CrystalStructure> .
+
+<sample:2_Position> a cmso:AtomAttribute ;
+    cmso:hasIdentifier "61ee1906-9810-4894-b601-f539aadb3c3a"^^xsd:string ;
+    cmso:hasName "Position"^^xsd:string ;
+    cmso:hasPath "rdf_structure_store/2.json"^^xsd:string .
+
+<sample:2_SimulationCell> a cmso:SimulationCell ;
+    cmso:hasAngle <sample:2_SimulationCellAngle> ;
+    cmso:hasLength <sample:2_SimulationCellLength> ;
+    cmso:hasVector <sample:2_SimulationCellVector_1>,
+        <sample:2_SimulationCellVector_2>,
+        <sample:2_SimulationCellVector_3> ;
+    cmso:hasVolume "3782.38"^^xsd:float .
+
+<sample:2_SimulationCellAngle> a cmso:SimulationCellAngle ;
+    cmso:hasAngle_alpha "90.0"^^xsd:float ;
+    cmso:hasAngle_beta "90.0"^^xsd:float ;
+    cmso:hasAngle_gamma "90.0"^^xsd:float .
+
+<sample:2_SimulationCellLength> a cmso:SimulationCellLength ;
+    cmso:hasLength_x "18.15147376"^^xsd:float ;
+    cmso:hasLength_y "2.87"^^xsd:float ;
+    cmso:hasLength_z "9.07573688"^^xsd:float .
+
+<sample:2_SimulationCellVector_1> a cmso:SimulationCellVector ;
+    cmso:hasComponent_x "18.15147376"^^xsd:float ;
+    cmso:hasComponent_y "0.0"^^xsd:float ;
+    cmso:hasComponent_z "0.0"^^xsd:float .
+
+<sample:2_SimulationCellVector_2> a cmso:SimulationCellVector ;
+    cmso:hasComponent_x "0.0"^^xsd:float ;
+    cmso:hasComponent_y "2.87"^^xsd:float ;
+    cmso:hasComponent_z "0.0"^^xsd:float .
+
+<sample:2_SimulationCellVector_3> a cmso:SimulationCellVector ;
+    cmso:hasComponent_x "0.0"^^xsd:float ;
+    cmso:hasComponent_y "0.0"^^xsd:float ;
+    cmso:hasComponent_z "9.07573688"^^xsd:float .
+
+<sample:2_Species> a cmso:AtomAttribute ;
+    cmso:hasIdentifier "71adf2a5-390a-42d1-ac18-aac369470774"^^xsd:string ;
+    cmso:hasName "Species"^^xsd:string ;
+    cmso:hasPath "rdf_structure_store/2.json"^^xsd:string .
+
+<sample:2_SymmetricalTiltGrainBoundary> a pldo:SymmetricalTiltGrainBoundary ;
+    pldo:hasGBPlane "3 -1 0"^^xsd:string ;
+    pldo:hasMisorientationAngle "36.86989764584402"^^xsd:float ;
+    pldo:hasRotationAxis "[0, 0, 1]"^^xsd:string ;
+    pldo:hasSigmaValue 5 .
+
+<sample:2_UnitCell> a cmso:UnitCell ;
+    cmso:hasAngle <sample:2_LatticeAngle> ;
+    cmso:hasLatticeParamter <sample:2_LatticeParameter> .
+
+cmso:Angle cmso:hasUnit <http://qudt.org/vocab/unit/DEG> .
+
+cmso:LatticeAngle rdfs:subClassOf cmso:Angle .
+
+cmso:LatticeParameter rdfs:subClassOf cmso:Length .
+
+cmso:Length cmso:hasUnit <http://qudt.org/vocab/unit/ANGSTROM> .
+
+cmso:SimulationCellAngle rdfs:subClassOf cmso:Angle .
+
+cmso:SimulationCellLength rdfs:subClassOf cmso:Length .
+
+cmso:Vector cmso:hasUnit <http://qudt.org/vocab/unit/ANGSTROM> .
+
+cmso:SimulationCellVector rdfs:subClassOf cmso:Vector .
+

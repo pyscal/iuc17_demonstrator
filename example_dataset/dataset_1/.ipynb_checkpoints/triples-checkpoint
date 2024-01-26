@@ -1,0 +1,796 @@
+[
+  {
+    "@graph": [
+      {
+        "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_SimulationCellVector_1",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/SimulationCellVector"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasComponent_x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "2.87"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasComponent_y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "0.0"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasComponent_z": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "0.0"
+          }
+        ]
+      },
+      {
+        "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_SimulationCellVector_3",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/SimulationCellVector"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasComponent_x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "0.0"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasComponent_y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "0.0"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasComponent_z": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "2.87"
+          }
+        ]
+      },
+      {
+        "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_LatticeParameter",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/LatticeParameter"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasLength_x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "2.5"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasLength_y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "2.5"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasLength_z": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "2.5"
+          }
+        ]
+      },
+      {
+        "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_UnitCell",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/UnitCell"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasAngle": [
+          {
+            "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_LatticeAngle"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasBravaisLattice": [
+          {
+            "@id": "https://www.wikidata.org/wiki/Q851536"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasLatticeParamter": [
+          {
+            "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_LatticeParameter"
+          }
+        ]
+      },
+      {
+        "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/AtomicScaleSample"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasAttribute": [
+          {
+            "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_Position"
+          },
+          {
+            "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_Species"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasMaterial": [
+          {
+            "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_Material"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasNumberOfAtoms": [
+          {
+            "@value": 4
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasSimulationCell": [
+          {
+            "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_SimulationCell"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasSpecies": [
+          {
+            "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_ChemicalSpecies"
+          }
+        ]
+      },
+      {
+        "@id": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:18248",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/Element"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasElementRatio": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "1.0"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasSymbol": [
+          {
+            "@value": "Fe"
+          }
+        ]
+      },
+      {
+        "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_SimulationCell",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/SimulationCell"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasAngle": [
+          {
+            "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_SimulationCellAngle"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasLength": [
+          {
+            "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_SimulationCellLength"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasVector": [
+          {
+            "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_SimulationCellVector_1"
+          },
+          {
+            "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_SimulationCellVector_2"
+          },
+          {
+            "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_SimulationCellVector_3"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasVolume": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "421.88"
+          }
+        ]
+      },
+      {
+        "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_Position",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/AtomAttribute"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasIdentifier": [
+          {
+            "@value": "760d0e25-3020-4c50-bd75-daf2aadada2b"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasName": [
+          {
+            "@value": "Position"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasPath": [
+          {
+            "@value": "rdf_structure_store/13cab138-c3a0-481d-8c09-2584e24f30ff.json"
+          }
+        ]
+      },
+      {
+        "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_CrystalStructure",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/CrystalStructure"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasAltName": [
+          {
+            "@value": "fcc"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasSpaceGroupNumber": [
+          {
+            "@value": 225
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasSpaceGroupSymbol": [
+          {
+            "@value": "Fm-3m"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasUnitCell": [
+          {
+            "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_UnitCell"
+          }
+        ]
+      },
+      {
+        "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_SimulationCellLength",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/SimulationCellLength"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasLength_x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "2.87"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasLength_y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "2.87"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasLength_z": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "2.87"
+          }
+        ]
+      },
+      {
+        "@id": "http://purls.helmholtz-metadaten.de/cmso/Angle",
+        "http://purls.helmholtz-metadaten.de/cmso/hasUnit": [
+          {
+            "@id": "http://qudt.org/vocab/unit/DEG"
+          }
+        ]
+      },
+      {
+        "@id": "http://purls.helmholtz-metadaten.de/cmso/SimulationCellVector",
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+          {
+            "@id": "http://purls.helmholtz-metadaten.de/cmso/Vector"
+          }
+        ]
+      },
+      {
+        "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_CrystalStructure",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/CrystalStructure"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasAltName": [
+          {
+            "@value": "bcc"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasSpaceGroupNumber": [
+          {
+            "@value": 229
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasSpaceGroupSymbol": [
+          {
+            "@value": "Im-3m"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasUnitCell": [
+          {
+            "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_UnitCell"
+          }
+        ]
+      },
+      {
+        "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_UnitCell",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/UnitCell"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasAngle": [
+          {
+            "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_LatticeAngle"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasBravaisLattice": [
+          {
+            "@id": "https://www.wikidata.org/wiki/Q3006714"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasLatticeParamter": [
+          {
+            "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_LatticeParameter"
+          }
+        ]
+      },
+      {
+        "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_Position",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/AtomAttribute"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasIdentifier": [
+          {
+            "@value": "ce2a41a0-d81f-43ce-9074-726a43de414f"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasName": [
+          {
+            "@value": "Position"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasPath": [
+          {
+            "@value": "rdf_structure_store/b2421053-c682-4976-a9eb-49efbc4cb463.json"
+          }
+        ]
+      },
+      {
+        "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_LatticeAngle",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/LatticeAngle"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasAngle_alpha": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "90.0"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasAngle_beta": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "90.0"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasAngle_gamma": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "90.0"
+          }
+        ]
+      },
+      {
+        "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_Material",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/CrystallineMaterial"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasStructure": [
+          {
+            "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_CrystalStructure"
+          }
+        ]
+      },
+      {
+        "@id": "http://purls.helmholtz-metadaten.de/cmso/SimulationCellAngle",
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+          {
+            "@id": "http://purls.helmholtz-metadaten.de/cmso/Angle"
+          }
+        ]
+      },
+      {
+        "@id": "http://purls.helmholtz-metadaten.de/cmso/Length",
+        "http://purls.helmholtz-metadaten.de/cmso/hasUnit": [
+          {
+            "@id": "http://qudt.org/vocab/unit/ANGSTROM"
+          }
+        ]
+      },
+      {
+        "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_SimulationCellVector_2",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/SimulationCellVector"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasComponent_x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "0.0"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasComponent_y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "2.5"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasComponent_z": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "0.0"
+          }
+        ]
+      },
+      {
+        "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_ChemicalSpecies",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/ChemicalSpecies"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasElement": [
+          {
+            "@id": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:18248"
+          }
+        ]
+      },
+      {
+        "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_SimulationCellVector_1",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/SimulationCellVector"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasComponent_x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "2.5"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasComponent_y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "0.0"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasComponent_z": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "0.0"
+          }
+        ]
+      },
+      {
+        "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_SimulationCellLength",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/SimulationCellLength"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasLength_x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "2.5"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasLength_y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "2.5"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasLength_z": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "2.5"
+          }
+        ]
+      },
+      {
+        "@id": "http://purls.helmholtz-metadaten.de/cmso/LatticeAngle",
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+          {
+            "@id": "http://purls.helmholtz-metadaten.de/cmso/Angle"
+          }
+        ]
+      },
+      {
+        "@id": "http://purls.helmholtz-metadaten.de/cmso/LatticeVector",
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+          {
+            "@id": "http://purls.helmholtz-metadaten.de/cmso/Vector"
+          }
+        ]
+      },
+      {
+        "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_LatticeParameter",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/LatticeParameter"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasLength_x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "2.87"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasLength_y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "2.87"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasLength_z": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "2.87"
+          }
+        ]
+      },
+      {
+        "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_Species",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/AtomAttribute"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasIdentifier": [
+          {
+            "@value": "10e38335-abff-4312-80d5-7bcb938615c6"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasName": [
+          {
+            "@value": "Species"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasPath": [
+          {
+            "@value": "rdf_structure_store/b2421053-c682-4976-a9eb-49efbc4cb463.json"
+          }
+        ]
+      },
+      {
+        "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_Species",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/AtomAttribute"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasIdentifier": [
+          {
+            "@value": "4a40f324-196a-4b20-9a30-9a6c69788aa5"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasName": [
+          {
+            "@value": "Species"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasPath": [
+          {
+            "@value": "rdf_structure_store/13cab138-c3a0-481d-8c09-2584e24f30ff.json"
+          }
+        ]
+      },
+      {
+        "@id": "http://purls.helmholtz-metadaten.de/cmso/Vector",
+        "http://purls.helmholtz-metadaten.de/cmso/hasUnit": [
+          {
+            "@id": "http://qudt.org/vocab/unit/ANGSTROM"
+          }
+        ]
+      },
+      {
+        "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_SimulationCellVector_3",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/SimulationCellVector"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasComponent_x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "0.0"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasComponent_y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "0.0"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasComponent_z": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "2.5"
+          }
+        ]
+      },
+      {
+        "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_LatticeAngle",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/LatticeAngle"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasAngle_alpha": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "90.0"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasAngle_beta": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "90.0"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasAngle_gamma": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "90.0"
+          }
+        ]
+      },
+      {
+        "@id": "http://purls.helmholtz-metadaten.de/cmso/LatticeParameter",
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+          {
+            "@id": "http://purls.helmholtz-metadaten.de/cmso/Length"
+          }
+        ]
+      },
+      {
+        "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_SimulationCell",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/SimulationCell"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasAngle": [
+          {
+            "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_SimulationCellAngle"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasLength": [
+          {
+            "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_SimulationCellLength"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasVector": [
+          {
+            "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_SimulationCellVector_1"
+          },
+          {
+            "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_SimulationCellVector_2"
+          },
+          {
+            "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_SimulationCellVector_3"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasVolume": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "1512.95"
+          }
+        ]
+      },
+      {
+        "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_Material",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/CrystallineMaterial"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasStructure": [
+          {
+            "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_CrystalStructure"
+          }
+        ]
+      },
+      {
+        "@id": "http://purls.helmholtz-metadaten.de/cmso/PositionVector",
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+          {
+            "@id": "http://purls.helmholtz-metadaten.de/cmso/Vector"
+          }
+        ]
+      },
+      {
+        "@id": "http://purls.helmholtz-metadaten.de/cmso/SimulationCellLength",
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+          {
+            "@id": "http://purls.helmholtz-metadaten.de/cmso/Length"
+          }
+        ]
+      },
+      {
+        "@id": "sample:13cab138-c3a0-481d-8c09-2584e24f30ff_SimulationCellAngle",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/SimulationCellAngle"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasAngle_alpha": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "90.0"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasAngle_beta": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "90.0"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasAngle_gamma": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "90.0"
+          }
+        ]
+      },
+      {
+        "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_SimulationCellVector_2",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/SimulationCellVector"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasComponent_x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "0.0"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasComponent_y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "2.87"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasComponent_z": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "0.0"
+          }
+        ]
+      },
+      {
+        "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_ChemicalSpecies",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/ChemicalSpecies"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasElement": [
+          {
+            "@id": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:18248"
+          }
+        ]
+      },
+      {
+        "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/AtomicScaleSample"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasAttribute": [
+          {
+            "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_Position"
+          },
+          {
+            "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_Species"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasMaterial": [
+          {
+            "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_Material"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasNumberOfAtoms": [
+          {
+            "@value": 2
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasSimulationCell": [
+          {
+            "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_SimulationCell"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasSpecies": [
+          {
+            "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_ChemicalSpecies"
+          }
+        ]
+      },
+      {
+        "@id": "sample:b2421053-c682-4976-a9eb-49efbc4cb463_SimulationCellAngle",
+        "@type": [
+          "http://purls.helmholtz-metadaten.de/cmso/SimulationCellAngle"
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasAngle_alpha": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "90.0"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasAngle_beta": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "90.0"
+          }
+        ],
+        "http://purls.helmholtz-metadaten.de/cmso/hasAngle_gamma": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#float",
+            "@value": "90.0"
+          }
+        ]
+      }
+    ],
+    "@id": "http://default_graph"
+  }
+]

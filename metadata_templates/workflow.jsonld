@@ -1,0 +1,137 @@
+  {
+    "@context": {
+      "mwo": "http://purls.helmholtz-metadaten.de/mwo/",
+      "nfdicore": "https://nfdi.fiz-karlsruhe.de/ontology/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "schema:": "http://schema.org/",
+      "swo:": "http://www.ebi.ac.uk/swo/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "@type": "mwo:ComputationalWorkflow",
+    "mwo:hasAuthor": [
+      {
+        "@type": "nfdicore:Person",
+        "foaf:firstName": "Sarath",
+        "foaf:surname": "Menon",
+        "foaf:title": "Dr.-Ing.",
+        "mwo:hasEmailAddress": "s.menon@mpie.de",
+        "mwo:hasORCID": "https://orcid.org/0000-0002-6776-1213",
+        "mwo:hasAffiliation": [
+          {
+            "@type": "nfdicore:Organization",
+            "rdfs:label": "Max-Planck-Institut für Eisenforschung",
+            "mwo:hasRORID": "https://ror.org/01ngpvg12"
+          }
+        ]
+      }
+    ],
+    "schema:citation": [
+      {
+        "type": "nfdico:Publication",
+        "url": "https://example.org/"
+      }
+    ],
+  "schema:dateCreated": null,
+  "schema:datePublished": null,
+  "nfdico:fundingProject": [
+    {
+      "type": "nfdicore:Project",
+      "project":"NFDI-MatWerk",
+      "hasProjectIdentifier":"NFDI 38/1 – 460247524"
+    }
+  ],
+  "mwo:hasDOI": null,
+  "mwo:hasDiscipline": [
+      {
+        "type": "nfdico:AcademicDiscipline",
+        "rdfs:label": "Computational Materials Science"
+      }
+    ],
+  "hasFormat": [
+      {
+        "type": "dcterms:FileFormat",
+        "rdfs:label": "ipynb"
+      }
+    ],
+  "swo:has_license": "MIT",
+  "mwo:hasRelatedResource": [
+    {
+      "type": "nfdico:Dataset",
+      "url": "https://example.org/"
+    }
+  ],
+  "mwo:hasRepository": [
+    {
+      "type": "mwo:GitRepository",
+      "url": "https://example.org/"
+    }
+  ],
+"nfdico:url": "https://example.org/",
+"dcterms:title": "Template for IUC17 workflow",
+"mwo:hasVersion": null,
+  "mwo:description": "Workflows of atomistic simulations of crystal defects",
+  "mwo:keywords": [
+    "Crystal defects",
+    "Aluminium",
+    "EAM",
+    "LAMMPS"
+  ],
+  "swo:usesSoftware": [
+    {
+      "type": "swo:SWO_0000001",
+      "title": "pyiron",
+      "hasVersion": "0.4.7"
+    }
+  ],
+  "programmingLanguage": [
+    {
+      "type": "nfdico:ProgrammingLanguage",
+      "rdfs:label": "python3.9"
+    }
+  ],
+  "schema:operatingSystem": [
+    "Linux",
+    "Unix",
+    "MacOS"
+  ],
+  "mwo:usesMethod": [
+    {
+      "type": "mwo:ComputationalMethod",
+      "@id": "http://purls.helmholtz-metadaten.de/mwo/MolecularDynamics",
+      "rdfs:label": "Molecular Dynamics"
+    }
+  ],
+"mwo:aboutMaterial": [
+    {
+      "type": "mwo:Material",
+      "rdfs:label": "Aluminium"
+    }
+  ],
+    "mwo:containsElement": [
+        {
+          "type": "mwo:ChemicalElement",
+          "rdfs:label": "Al"
+        }
+      ],
+    "mwo:hasMaterialCondition":  [
+        {
+          "type": "mwo:MaterialCondition",
+          "rdfs:label": null
+        }
+      ],
+    "mwo:hasMaterialProperty":  [
+        {
+          "type": "mwo:MaterialProperty",
+          "@id": "http://purls.helmholtz-metadaten.de/mwo/BulkModulus",
+          "rdfs:label": "Bulk Modulus"
+        }
+      ],
+    "mwo:hasMaterialType":  [
+        {
+          "type": "mwo:MaterialType",
+          "@id": "http://purls.helmholtz-metadaten.de/mwo/Metal",
+          "rdfs:label": "Metal"
+        }
+      ]
+}

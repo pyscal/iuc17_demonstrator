@@ -1,0 +1,119 @@
+{
+    "@context": {
+      "mwo": "http://purls.helmholtz-metadaten.de/mwo/",
+      "nfdicore": "https://nfdi.fiz-karlsruhe.de/ontology/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "schema:": "http://schema.org/",
+      "swo:": "http://www.ebi.ac.uk/swo/",
+      "dcterms": "http://purl.org/dc/terms/",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "@type": "nfdicore:Dataset",
+    "mwo:hasAuthor": [
+      {
+        "@type": "nfdicore:Person",
+        "foaf:firstName": "Abril",
+        "foaf:surname": "Azocar Guzman",
+        "foaf:title": "Dr.-Ing.",
+        "mwo:hasEmailAddress": "a.azocar.guzman@fz-juelich.de",
+        "mwo:hasORCID": "https://orcid.org/0000-0001-7564-7990",
+        "mwo:hasAffiliation": [
+          {
+            "@type": "nfdicore:Organization",
+            "rdfs:label": "Forschungszentrum Jülich",
+            "mwo:hasRORID": "https://ror.org/02nv7yv05"
+          }
+        ]
+      }
+    ],
+    "schema:citation": [
+        {
+          "type": "nfdico:Publication",
+          "url": "https://example.org/"
+        }
+      ],
+    "schema:dateCreated": null,
+  	"schema:datePublished": null,
+  	"nfdico:fundingProject": [
+      {
+        "type": "nfdicore:Project",
+        "project":"NFDI-MatWerk",
+        "hasProjectIdentifier":"NFDI 38/1 – 460247524"
+      }
+    ],
+  	"mwo:hasDOI": null,
+  	"mwo:hasDiscipline": [
+        {
+          "type": "nfdico:AcademicDiscipline",
+          "rdfs:label": "Computational Materials Science"
+        }
+      ],
+    "hasFormat": [
+        {
+          "type": "dcterms:FileFormat",
+          "rdfs:label": "turtle"
+        }
+      ],
+  	"swo:has_license": "MIT",
+  	"mwo:hasRelatedResource": [
+      {
+        "type": "mwo:ComputationalWorkflow",
+        "url": "https://example.org/"
+      }
+    ],
+  	"mwo:hasRepository": [
+        {
+          "type": "mwo:GitRepository",
+          "url": "https://example.org/"
+        }
+      ],
+  	"nfdico:url": "https://example.org/",
+  	"dcterms:title": "Template for IUC17 dataset",
+  	"mwo:hasVersion": null,
+  	"mwo:description": "Data containing atomistic simulations of crystal defects",
+  	"mwo:keywords": [
+      "Crystal defects",
+      "Aluminium",
+      "Grain boundary",
+      "Atomistic simulations"
+    ],
+  	"mwo:usesMethod": [
+        {
+          "type": "mwo:ComputationalMethod",
+          "@id": "http://purls.helmholtz-metadaten.de/mwo/MolecularDynamics",
+          "rdfs:label": "Molecular Dynamics"
+        }
+      ],
+  	"mwo:aboutMaterial": [
+        {
+          "type": "mwo:Material",
+          "rdfs:label": "Aluminium"
+        }
+      ],
+        "mwo:containsElement": [
+            {
+              "type": "mwo:ChemicalElement",
+              "rdfs:label": "Al"
+            }
+          ],
+        "mwo:hasMaterialCondition":  [
+            {
+              "type": "mwo:MaterialCondition",
+              "rdfs:label": null
+            }
+          ],
+        "mwo:hasMaterialProperty":  [
+            {
+              "type": "mwo:MaterialProperty",
+              "@id": "http://purls.helmholtz-metadaten.de/mwo/InterfacialEnergy",
+              "rdfs:label": "Interfacial energy"
+            }
+          ],
+        "mwo:hasMaterialType":  [
+            {
+              "type": "mwo:MaterialType",
+              "@id": "http://purls.helmholtz-metadaten.de/mwo/Metal",
+              "rdfs:label": "Metal"
+            }
+          ]
+    }

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: IUC17 demonstrator
+message: >-
+  Funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) 
+  under the National Research Data Infrastructure – NFDI 38/1 – project number 460247524
+type: software
+authors:
+- given-names: Abril
+  family-names: Azocar Guzman
+  affiliation: Institute for Advanced Simulations – Materials Data Science and Informatics (IAS-9), Forschungszentrum Jülich GmbH
+  orcid: 'https://orcid.org/0000-0001-7564-7990'
+- given-names: Sarath
+  family-names: Menon
+  affiliation: Max-Planck-Institut für Eisenforschung GmbH
+  orcid: 'https://orcid.org/0000-0002-6776-1213'
+date-released: '2024-02-15'
+url: 'https://git.rwth-aachen.de/nfdi-matwerk/ta-oms/iuc17_demonstrator'
+license: "MIT"
+repository-code: https://git.rwth-aachen.de/nfdi-matwerk/ta-oms/iuc17_demonstrator
+type: software
+version: 1.0.0
